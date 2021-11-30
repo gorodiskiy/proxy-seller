@@ -1,0 +1,51 @@
+.section {
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 40px;
+        color: var(--clr-default-100);
+        background-color: var(--clr-primary-400);
+        transition: box-shadow $ms;
+
+        &:disabled {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        @media (hover) {
+            &:hover,
+            &:focus {
+                box-shadow: 0 3px var(--clr-primary-500);
+                transition: box-shadow $ms;
+            }
+        }
+
+        &--size {
+            &-m {
+                min-width: 170px;
+            }
+
+            &-l {
+                min-width: 270px;
+            }
+        }
+
+        &--color {
+            &-secondary {
+                background-color: var(--clr-default-500);
+
+                @media (hover) {
+                    &:hover,
+                    &:focus {
+                        box-shadow: 0 3px var(--clr-default-500);
+                        transition: box-shadow $ms;
+                    }
+                }
+            }
+        }
+    }
+}

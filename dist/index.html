@@ -1,0 +1,2337 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proxy Seller - Личный кабинет</title>
+
+    <meta
+      name="description"
+      lang="ru"
+      content="Очень красивое, точное и правильное описание сайта для оптимизации"
+    />
+    <meta name="keywords" lang="ru" content="" />
+
+    <link
+      rel="preload"
+      href="fonts/Lato-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Lato-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Lato-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Lato-Semibold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Roboto-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Roboto-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@5.12.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main>
+        <section class="cabinet">
+  <div class="container">
+    <h1 class="cabinet__title">Личный кабинет</h1>
+    <ul class="cabinet__global-list">
+      <li
+        class="
+          cabinet__global-item cabinet__global-tab cabinet__global-tab--active
+        "
+      >
+        <svg>
+          <use xlink:href="img/svg/sprite.svg#user"></use>
+        </svg>
+        Профиль
+      </li>
+      <li class="cabinet__global-item cabinet__global-tab">Текущие заказы</li>
+      <li class="cabinet__global-item cabinet__global-tab">
+        <svg>
+          <use xlink:href="img/svg/sprite.svg#paper"></use>
+        </svg>
+        Новый заказ
+      </li>
+      <li class="cabinet__global-item cabinet__global-tab">FAQ</li>
+      <li class="cabinet__global-item cabinet__global-tab">
+        Партнерская программа
+      </li>
+      <li class="cabinet__global-item">Выход</li>
+    </ul>
+    <div class="cabinet__ref cabinet__ref--top">
+      <div class="cabinet__ref-title">Ваша партнерская ссылка</div>
+      <div class="cabinet__ref-body">
+        <div class="cabinet__ref-tip">
+          <img
+            src="img/ui/copy.svg"
+            width="12"
+            height="12"
+            loading="lazy"
+            alt="Наведите и прочитайте предупреждение"
+          />
+          <div class="cabinet__ref-tip-text">
+            В браузере Safari, возможно, придется копировать вручную
+          </div>
+        </div>
+        <div class="cabinet__ref-input">
+          <input type="text" readonly value="site.ru/ghtrrekger" />
+          <button
+            class="section__btn section__btn--size-m copy"
+            data-clipboard-text="site.ru/ghtrrekger"
+          >
+            Скопировать
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="cabinet__ref cabinet__ref--bottom">
+      <div class="cabinet__ref-title">
+        Получайте 25% с кадой продажи по Вашей ссылке.
+      </div>
+      <a href="#" class="cabinet__ref-link"> О партнерской программе </a>
+    </div>
+    <div class="cabinet__content">
+      <div class="cabinet__content-item profile hide">
+        <ul class="cabinet__content-tabs">
+          <li class="cabinet__content-tab cabinet__content-tab--active">
+            <svg>
+              <use xlink:href="img/svg/sprite.svg#services"></use>
+            </svg>
+            Активные услуги
+          </li>
+          <li class="cabinet__content-tab">
+            <svg class="stroke">
+              <use xlink:href="img/svg/sprite.svg#lock"></use>
+            </svg>
+            Сменить пароль
+          </li>
+          <li class="cabinet__content-tab">
+            <svg>
+              <use xlink:href="img/svg/sprite.svg#bell"></use>
+            </svg>
+            Уведомления
+          </li>
+          <li class="cabinet__content-tab">
+            <svg>
+              <use xlink:href="img/svg/sprite.svg#time"></use>
+            </svg>
+            История
+          </li>
+        </ul>
+        <div class="profile__content">
+          <div class="profile__content-item services">
+            <ul class="services__list">
+              <li class="services__item">
+                <ul class="services__head-list">
+                  <li class="services__head-item services__head-item--1">
+                    Услуга
+                  </li>
+                  <li class="services__head-item services__head-item--2">
+                    Страны
+                  </li>
+                  <li class="services__head-item services__head-item--3">
+                    Активных IP
+                  </li>
+                  <li class="services__head-item services__head-item--4">
+                    IP к продлению
+                  </li>
+                </ul>
+                <div class="services__body">
+                  <ul class="services__body-list">
+                    <li class="services__body-item services__body-item--1">
+                      Резидентские прокси
+                      <button class="services__body-show">Подробнее</button>
+                    </li>
+                    <li class="services__body-item services__body-item--2">
+                      Казахстан, Россия, США
+                    </li>
+                    <li class="services__body-item services__body-item--3">
+                      224
+                    </li>
+                    <li class="services__body-item services__body-item--4">
+                      <div class="services__body-left">
+                        336
+                        <button class="services__body-show">Подробнее</button>
+                      </div>
+                      <button class="section__btn">Продлить</button>
+                    </li>
+                  </ul>
+                  <div class="services__body-bottom">
+                    <ul class="services__body-proxies">
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                    </ul>
+                    <div class="services__body-renew">
+                      <div class="services__body-title">Продлить прокси:</div>
+                      <form class="services__renew-form">
+                        <div class="services__renew-input">
+                          <select>
+                            <option value="Срок продления"></option>
+                            <option>1 день</option>
+                            <option>2 дня</option>
+                            <option>3 дня</option>
+                            <option>4 дня</option>
+                          </select>
+                        </div>
+                        <div class="services__renew-input">
+                          <select>
+                            <option value="Способ оплаты"></option>
+                            <option>1 день</option>
+                            <option>2 дня</option>
+                            <option>3 дня</option>
+                            <option>4 дня</option>
+                          </select>
+                        </div>
+                        <div class="services__renew-input">
+                          <button
+                            class="services__renew-promocode"
+                            type="button"
+                          >
+                            Есть промо код?
+                          </button>
+                          <div class="services__renew-input-wrapper">
+                            <input type="text" placeholder="Промокод" />
+                            <button
+                              class="services__renew-promocode"
+                              type="button"
+                              aria-label="Убрать поле ввода для промокода"
+                            >
+                              <img
+                                src="img/ui/delete.svg"
+                                width="10"
+                                height="10"
+                                loading="lazy"
+                                alt="Убрать поле ввода для промокода"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <button
+                          class="section__btn section__btn--size-m"
+                          type="submit"
+                        >
+                          Продлить
+                        </button>
+                      </form>
+                      <ul class="services__body-final">
+                        <li>Выбрано <span>2 прокси.</span></li>
+                        <li>Стоимость <span>999 руб.</span></li>
+                        <li>С учетом скидки <span>0%: 0 руб.</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="services__item">
+                <ul class="services__head-list">
+                  <li class="services__head-item services__head-item--1">
+                    Услуга
+                  </li>
+                  <li class="services__head-item services__head-item--2">
+                    Страны
+                  </li>
+                  <li class="services__head-item services__head-item--3">
+                    Активных IP
+                  </li>
+                  <li class="services__head-item services__head-item--4">
+                    IP к продлению
+                  </li>
+                </ul>
+                <div class="services__body">
+                  <ul class="services__body-list">
+                    <li class="services__body-item services__body-item--1">
+                      Резидентские прокси
+                      <button class="services__body-show">Подробнее</button>
+                    </li>
+                    <li class="services__body-item services__body-item--2">
+                      Казахстан, Россия, США
+                    </li>
+                    <li class="services__body-item services__body-item--3">
+                      224
+                    </li>
+                    <li class="services__body-item services__body-item--4">
+                      <div class="services__body-left">
+                        336
+                        <button class="services__body-show">Подробнее</button>
+                      </div>
+                      <button class="section__btn">Продлить</button>
+                    </li>
+                  </ul>
+                  <div class="services__body-bottom">
+                    <ul class="services__body-proxies">
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                      <li class="services__body-proxy">
+                        <button class="services__body-proxy-delete">
+                          <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Удалить прокси"
+                          />
+                        </button>
+                        115.136.61.128:57106
+                      </li>
+                    </ul>
+                    <div class="services__body-renew">
+                      <div class="services__body-title">Продлить прокси:</div>
+                      <form class="services__renew-form">
+                        <div class="services__renew-input">
+                          <select>
+                            <option value="Срок продления"></option>
+                            <option>1 день</option>
+                            <option>2 дня</option>
+                            <option>3 дня</option>
+                            <option>4 дня</option>
+                          </select>
+                        </div>
+                        <div class="services__renew-input">
+                          <select>
+                            <option value="Способ оплаты"></option>
+                            <option>1 день</option>
+                            <option>2 дня</option>
+                            <option>3 дня</option>
+                            <option>4 дня</option>
+                          </select>
+                        </div>
+                        <div class="services__renew-input">
+                          <button
+                            class="services__renew-promocode"
+                            type="button"
+                          >
+                            Есть промо код?
+                          </button>
+                          <div class="services__renew-input-wrapper">
+                            <input type="text" placeholder="Промокод" />
+                            <button
+                              class="services__renew-promocode"
+                              type="button"
+                              aria-label="Убрать поле ввода для промокода"
+                            >
+                              <img
+                                src="img/ui/delete.svg"
+                                width="10"
+                                height="10"
+                                loading="lazy"
+                                alt="Убрать поле ввода для промокода"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <button
+                          class="section__btn section__btn--size-m"
+                          type="submit"
+                        >
+                          Продлить
+                        </button>
+                      </form>
+                      <ul class="services__body-final">
+                        <li>Выбрано <span>2 прокси.</span></li>
+                        <li>Стоимость <span>999 руб.</span></li>
+                        <li>С учетом скидки <span>0%: 0 руб.</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="profile__content-item user">
+            <form class="user__form">
+              <div class="user__left">
+                <div class="user__inputs">
+                  <div class="user__input">
+                    <input
+                      type="text"
+                      name="Почта"
+                      value="sergeyvasylenko4@gmail.com"
+                      disabled
+                    />
+                  </div>
+                </div>
+                <h2 class="user__title">Изменить пароль:</h2>
+                <div class="user__inputs">
+                  <div class="user__input">
+                    <input
+                      type="text"
+                      name="Новый пароль"
+                      placeholder="Новый пароль"
+                      disabled
+                    />
+                  </div>
+                  <div class="user__input">
+                    <input
+                      type="text"
+                      name="Новый пароль (повторение)"
+                      placeholder="Повторите новый пароль"
+                      disabled
+                    />
+                  </div>
+                </div>
+                <h2 class="user__title">Связанные аккаунты:</h2>
+                <ul class="user__connects">
+                  <li class="user__connect">
+                    <a href="#">
+                      <div class="user__connect-image">
+                        <img
+                          src="img/ui/facebook.png"
+                          width="36"
+                          height="36"
+                          loading="lazy"
+                          alt="Facebook"
+                        />
+                      </div>
+                      <div class="user__connect-info">
+                        <div class="user__connect-name">Facebook</div>
+                        <span class="user__connect-link">
+                          связать с соц.сетью
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="user__connect user__connect--connected">
+                    <a href="#">
+                      <div class="user__connect-image">
+                        <img
+                          src="img/ui/google.png"
+                          width="36"
+                          height="36"
+                          loading="lazy"
+                          alt="Facebook"
+                        />
+                      </div>
+                      <div class="user__connect-info">
+                        <div class="user__connect-name">Name Surname</div>
+                        <span class="user__connect-link"> отменить связь </span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="user__right">
+                <h2 class="user__title">Данные авторизации IP:</h2>
+                <ul class="user__ip-info">
+                  <li class="user__ip-item">
+                    <div class="user__ip-item-title">HTTP/S:</div>
+                    <div class="user__ip-item-body">65324</div>
+                  </li>
+                  <li class="user__ip-item">
+                    <div class="user__ip-item-title">Socks5:</div>
+                    <div class="user__ip-item-body">65325</div>
+                  </li>
+                  <li class="user__ip-item">
+                    <div class="user__ip-item-title">IP авторизации:</div>
+                    <div class="user__ip-item-body">197.168.0.1</div>
+                  </li>
+                  <li class="user__ip-item">
+                    <div class="user__ip-item-title">Логин</div>
+                    <div class="user__ip-item-body">login</div>
+                  </li>
+                  <li class="user__ip-item">
+                    <div class="user__ip-item-title">Пароль</div>
+                    <div class="user__ip-item-body">password</div>
+                  </li>
+                </ul>
+                <button
+                  class="section__btn section__btn--size-l user__btn--change"
+                  type="button"
+                >
+                  Изменить
+                </button>
+                <button
+                  class="
+                    section__btn
+                    section__btn--color-secondary
+                    section__btn--size-l
+                    user__btn--save
+                  "
+                  type="submit"
+                  disabled
+                >
+                  Cохранить
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="profile__content-item"></div>
+          <div class="profile__content-item history">
+            <h2 class="history__title">История операций</h2>
+            <div class="current-orders__content-item history__table--first">
+              <div class="current-orders__wrapper">
+                <div class="current-orders__table">
+                  <div class="bootstrap-table">
+                    <table
+                      id="operations"
+                      class="table table-bordered table-hover"
+                    >
+                      <thead>
+                        <tr>
+                          <th data-field="id">ID</th>
+                          <th data-field="order">Состав заказа</th>
+                          <th data-field="price">Сумма/Валюта</th>
+                          <th data-field="status">Статус</th>
+                          <th data-field="pay"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>38310</td>
+                          <td>Прокси для Инстаграм</td>
+                          <td>65 руб.</td>
+                          <td>Не оплачено</td>
+                          <td>
+                            <button class="section__btn section__btn--size-m">
+                              Оплатить
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>38310</td>
+                          <td>Прокси для Инстаграм</td>
+                          <td>65 руб.</td>
+                          <td>Не оплачено</td>
+                          <td>
+                            <button class="section__btn section__btn--size-m">
+                              Оплатить
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>38310</td>
+                          <td>Прокси для Инстаграм</td>
+                          <td>65 руб.</td>
+                          <td>Не оплачено</td>
+                          <td>
+                            <button class="section__btn section__btn--size-m">
+                              Оплатить
+                            </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="history__title">История замен</h2>
+            <div class="current-orders__content-item">
+              <div class="current-orders__wrapper">
+                <div class="current-orders__table">
+                  <div class="bootstrap-table">
+                    <table
+                      id="changes"
+                      class="table table-bordered table-hover"
+                    >
+                      <thead>
+                        <tr>
+                          <th data-field="date">Дата замены</th>
+                          <th data-field="time">Время замены</th>
+                          <th data-field="ip">IP</th>
+                          <th data-field="changedIp">Заменено на</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>11.06.2017</td>
+                          <td>11.06.2017</td>
+                          <td>115.136.61.128:57106</td>
+                          <td>115.136.61.128:57106</td>
+                        </tr>
+                        <tr>
+                          <td>11.06.2017</td>
+                          <td>11.06.2017</td>
+                          <td>115.136.61.128:57106</td>
+                          <td>115.136.61.128:57106</td>
+                        </tr>
+                        <tr>
+                          <td>11.06.2017</td>
+                          <td>11.06.2017</td>
+                          <td>115.136.61.128:57106</td>
+                          <td>115.136.61.128:57106</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cabinet__content-item current-orders hide">
+        <ul class="cabinet__content-tabs">
+          <li class="cabinet__content-tab cabinet__content-tab--active">
+            IPv4
+          </li>
+          <li class="cabinet__content-tab">IPv6</li>
+          <li class="cabinet__content-tab">Мобильные прокси</li>
+        </ul>
+        <div class="current-orders__content">
+          <div class="current-orders__content-item">
+            <div class="current-orders__wrapper">
+              <div class="current-orders__table">
+                <div id="toolbar-ipv4" class="toolbar">
+                  <img
+                    src="img/ui/dots.svg"
+                    width=""
+                    height="10"
+                    loading="lazy"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                  <div class="select">
+                    <div class="slct_arrow">
+                      <!--active-->
+                      <i class="fa fa-angle-down"></i>
+                    </div>
+                    <a href="#" class="slct topform-ipv">Формат выгрузки</a>
+                    <!--active-->
+                    <ul class="drop drop-ipv">
+                      <!-- display block  -->
+                      <li data-ipv4="1">IPv4</li>
+                      <li data-ipv4="0">IPv6</li>
+                    </ul>
+                    <input type="hidden" name="services" />
+                  </div>
+                </div>
+                <div class="bootstrap-table">
+                  <table id="ipv4" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th
+                          data-field="check"
+                          class="bs-checkbox"
+                          data-checkbox="true"
+                        >
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </th>
+                        <th data-field="ip" class="head-ip">IP</th>
+                        <th
+                          data-field="country"
+                          data-filter-control="select"
+                          data-filter-control-placeholder="Все страны"
+                          class="country"
+                        >
+                          Страна
+                          <div
+                            class="custom-select__country"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__country--current">
+                              Все страны
+                            </div>
+                            <ul class="custom-select__country--dropdown">
+                              <li data-country-value="all">Все страны</li>
+                              <li data-country-value="rus">Россия</li>
+                              <li data-country-value="kz">Казахстан</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th
+                          data-field="state"
+                          data-filter-control="select"
+                          data-filter-control-placeholder="Все состояния"
+                          class="condition"
+                        >
+                          Состояние
+                          <div
+                            class="custom-select__condition"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__condition--current">
+                              Все состояния
+                            </div>
+                            <ul class="custom-select__condition--dropdown">
+                              <li data-ip-value="all">Все состояния</li>
+                              <li data-ip-value="http">Активен</li>
+                              <li data-ip-value="http">Заканчивается</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th data-field="date">Дата окончания</th>
+                        <th data-field="auto-renewal">
+                          <div style="text-align: center">Автопродление</div>
+                        </th>
+                        <th data-field="actions"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr data-ip-type="http" data-country="rus">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Россия</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li class="comment-z">Комментарий</li>
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li class="comment-z">Комментарий</li>
+                              <li class="add">Добавить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--ending">
+                          Заканчивается
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--ending">
+                          Заканчивается
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="datatables-info">
+                    <div class="proxy-current">Всего: 247 прокси</div>
+                    <div class="table-pagination">
+                      <ul class="pagination">
+                        <li class="page-pre">
+                          <a href=""
+                            ><svg
+                              width="7"
+                              height="10"
+                              viewBox="0 0 7 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <line
+                                y1="-0.75"
+                                x2="7.07107"
+                                y2="-0.75"
+                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 5 10)"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                              <line
+                                x1="5.53033"
+                                y1="0.53033"
+                                x2="0.53033"
+                                y2="5.53033"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li>Стр:</li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">10</a></li>
+                        <li class="page-next">
+                          <a href="">
+                            <svg
+                              width="7"
+                              height="10"
+                              viewBox="0 0 7 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1.46973 9.46961L5.9394 4.99994M5.9394 4.99994L6.46973 4.46961M5.9394 4.99994L1.46973 0.530273M5.9394 4.99994L6.46973 5.53027"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="select-page">
+                      Прокси на странице:
+                      <select name="" id="">
+                        <option value="25" selected>25</option>
+                        <option value="35">35</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="current-orders__content-item">
+            <div class="current-orders__wrapper">
+              <div class="current-orders__table">
+                <div id="toolbar-ipv6" class="toolbar">
+                  <img
+                    src="img/ui/dots.svg"
+                    width=""
+                    height="10"
+                    loading="lazy"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                  <div class="select">
+                    <div class="slct_arrow">
+                      <!--active-->
+                      <i class="fa fa-angle-down"></i>
+                    </div>
+                    <a href="#" class="slct topform-ipv">Формат выгрузки</a>
+                    <!--active-->
+                    <ul class="drop drop-ipv">
+                      <!-- display block  -->
+                      <li data-ipv4="1">IPv4</li>
+                      <li data-ipv4="0">IPv6</li>
+                    </ul>
+                    <input type="hidden" name="services" />
+                  </div>
+                </div>
+                <div class="bootstrap-table">
+                  <table id="ipv6" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th data-field="check" data-checkbox="true"></th>
+                        <th data-field="ip" class="head-ip">
+                          IP
+                          <div
+                            class="custom-select__ip"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__ip--current">
+                              Все типы
+                            </div>
+                            <ul class="custom-select__ip--dropdown">
+                              <li data-ip-value="all">Все типы</li>
+                              <li data-ip-value="http">HTTP</li>
+                              <li data-ip-value="socks">Socks5</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <!-- <th
+                          data-field="link"
+                          class="current-orders__table-link-wrap"
+                        >
+                          <div class="current-orders__table-head-link">
+                            Link
+                            <div
+                              class="current-orders__table-head-link-dropdown"
+                            >
+                              <div
+                                class="
+                                  current-orders__table-head-link-dropdown--current
+                                "
+                              >
+                                <img
+                                  src="img/ui/help.svg"
+                                  width="14"
+                                  height="14"
+                                  loading="lazy"
+                                  alt="Link to change IP"
+                                />
+                              </div>
+                              <div
+                                class="
+                                  current-orders__table-head-link-dropdown--text
+                                "
+                              >
+                                Link to change IP
+                              </div>
+                            </div>
+                          </div>
+                        </th> -->
+                        <th
+                          data-field="country"
+                          data-filter-control="select"
+                          data-filter-control-placeholder="Все страны"
+                          class="country"
+                        >
+                          Страна
+                          <div
+                            class="custom-select__country"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__country--current">
+                              Все страны
+                            </div>
+                            <ul class="custom-select__country--dropdown">
+                              <li data-country-value="all">Все страны</li>
+                              <li data-country-value="rus">Россия</li>
+                              <li data-country-value="kz">Казахстан</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th
+                          data-field="state"
+                          data-filter-control="select"
+                          data-filter-control-placeholder="Все состояния"
+                          class="condition"
+                        >
+                          Состояние
+                          <div
+                            class="custom-select__condition"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__condition--current">
+                              Все состояния
+                            </div>
+                            <ul class="custom-select__condition--dropdown">
+                              <li data-ip-value="all">Все состояния</li>
+                              <li data-ip-value="http">Активен</li>
+                              <li data-ip-value="http">Заканчивается</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th data-field="date">Дата окончания</th>
+                        <th data-field="auto-renewal">
+                          <div style="text-align: center">Автопродление</div>
+                        </th>
+                        <th data-field="actions"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr data-ip-type="http" data-country="rus">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Россия</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li class="comment-z">Комментарий</li>
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--ending">
+                          Заканчивается
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--ending">
+                          Заканчивается
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="datatables-info">
+                    <div class="proxy-current">Всего: 247 прокси</div>
+                    <div class="table-pagination">
+                      <ul class="pagination">
+                        <li class="page-pre">
+                          <a href=""
+                            ><svg
+                              width="7"
+                              height="10"
+                              viewBox="0 0 7 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <line
+                                y1="-0.75"
+                                x2="7.07107"
+                                y2="-0.75"
+                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 5 10)"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                              <line
+                                x1="5.53033"
+                                y1="0.53033"
+                                x2="0.53033"
+                                y2="5.53033"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li>Стр:</li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">10</a></li>
+                        <li class="page-next">
+                          <a href="">
+                            <svg
+                              width="7"
+                              height="10"
+                              viewBox="0 0 7 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1.46973 9.46961L5.9394 4.99994M5.9394 4.99994L6.46973 4.46961M5.9394 4.99994L1.46973 0.530273M5.9394 4.99994L6.46973 5.53027"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="select-page">
+                      Прокси на странице:
+                      <select name="" id="">
+                        <option value="25" selected>25</option>
+                        <option value="35">35</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="current-orders__content-item">
+            <div class="current-orders__wrapper">
+              <div class="current-orders__table">
+                <div id="mobile" class="toolbar">
+                  <img
+                    src="img/ui/dots.svg"
+                    width=""
+                    height="10"
+                    loading="lazy"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                  <div class="select">
+                    <div class="slct_arrow">
+                      <!--active-->
+                      <i class="fa fa-angle-down"></i>
+                    </div>
+                    <a href="#" class="slct topform-ipv">Формат выгрузки</a>
+                    <!--active-->
+                    <ul class="drop drop-ipv">
+                      <!-- display block  -->
+                      <li data-ipv4="1">IPv4</li>
+                      <li data-ipv4="0">IPv6</li>
+                    </ul>
+                    <input type="hidden" name="services" />
+                  </div>
+                </div>
+                <div class="bootstrap-table">
+                  <table id="mobile" class="table table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th data-field="check" data-checkbox="true"></th>
+                        <th data-field="ip" class="head-ip">
+                          IP
+                          <div
+                            class="custom-select__ip"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__ip--current">
+                              Все типы
+                            </div>
+                            <ul class="custom-select__ip--dropdown">
+                              <li data-ip-value="all">Все типы</li>
+                              <li data-ip-value="http">HTTP</li>
+                              <li data-ip-value="socks">Socks5</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th
+                          data-field="link"
+                          class="current-orders__table-link-wrap"
+                        >
+                          <div class="current-orders__table-head-link">
+                            Link
+                            <div
+                              class="current-orders__table-head-link-dropdown"
+                            >
+                              <div
+                                class="
+                                  current-orders__table-head-link-dropdown--current
+                                "
+                              >
+                                <img
+                                  src="img/ui/help.svg"
+                                  width="14"
+                                  height="14"
+                                  loading="lazy"
+                                  alt="Link to change IP"
+                                />
+                              </div>
+                              <div
+                                class="
+                                  current-orders__table-head-link-dropdown--text
+                                "
+                              >
+                                Link to change IP
+                              </div>
+                            </div>
+                          </div>
+                        </th>
+                        <th
+                          data-field="country"
+                          data-filter-control="select"
+                          data-filter-control-placeholder="Все страны"
+                          class="country"
+                        >
+                          Страна
+                          <div
+                            class="custom-select__country"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__country--current">
+                              Все страны
+                            </div>
+                            <ul class="custom-select__country--dropdown">
+                              <li data-country-value="all">Все страны</li>
+                              <li data-country-value="rus">Россия</li>
+                              <li data-country-value="kz">Казахстан</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th
+                          data-field="state"
+                          data-filter-control="select"
+                          data-filter-control-placeholder="Все состояния"
+                          class="condition"
+                        >
+                          Состояние
+                          <div
+                            class="custom-select__condition"
+                            data-selected-value="all"
+                          >
+                            <div class="custom-select__condition--current">
+                              Все состояния
+                            </div>
+                            <ul class="custom-select__condition--dropdown">
+                              <li data-ip-value="all">Все состояния</li>
+                              <li data-ip-value="http">Активен</li>
+                              <li data-ip-value="http">Заканчивается</li>
+                            </ul>
+                          </div>
+                        </th>
+                        <th data-field="date">Дата окончания</th>
+                        <th data-field="auto-renewal">
+                          <div style="text-align: center">Автопродление</div>
+                        </th>
+                        <th data-field="actions"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr data-ip-type="http" data-country="rus">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>
+                          <a href="#" class="current-orders__table-link">
+                            Click link
+                          </a>
+                        </td>
+                        <td>Россия</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li class="comment-z">Комментарий</li>
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>
+                          <a href="#" class="current-orders__table-link">
+                            Click link
+                          </a>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>
+                          <a href="#" class="current-orders__table-link">
+                            Click link
+                          </a>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--ending">
+                          Заканчивается
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>
+                          <a href="#" class="current-orders__table-link">
+                            Click link
+                          </a>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--active">
+                          Активен
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr data-ip-type="socks" data-country="kz">
+                        <td class="bs-checkbox" style="width: 36px">
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                            />
+                            <span></span>
+                          </label>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-ip">
+                            <span>connect3.mproxy.top:13809</span>
+                            <button class="switch-btn">
+                              <img
+                                src="img/ui/switch.png"
+                                alt=""
+                                alt="switch"
+                              />
+                            </button>
+                            <button
+                              class="copy"
+                              data-clipboard-text="connect3.mproxy.top:13809"
+                            >
+                              <img
+                                src="img/ui/table-copy.svg"
+                                width="20"
+                                height="20"
+                                alt="Скопировать IP"
+                              />
+                            </button>
+                          </div>
+                        </td>
+                        <td>
+                          <a href="#" class="current-orders__table-link">
+                            Click link
+                          </a>
+                        </td>
+                        <td>Казахстан</td>
+                        <td class="current-orders__table-state--ending">
+                          Заканчивается
+                        </td>
+                        <td>11.06.2017</td>
+                        <td>
+                          <div style="text-align: center">
+                            <label class="switch">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="current-orders__table-actions">
+                            <div class="current-orders__table-actions-icon">
+                              <span></span>
+                            </div>
+                            <ul class="current-orders__table-actions-dropdown">
+                              <li>Просмотреть</li>
+                              <li>Редактировать</li>
+                              <li class="delete">Удалить</li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="datatables-info">
+                    <div class="proxy-current">Всего: 247 прокси</div>
+                    <div class="table-pagination">
+                      <ul class="pagination">
+                        <li class="page-pre">
+                          <a href=""
+                            ><svg
+                              width="7"
+                              height="10"
+                              viewBox="0 0 7 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <line
+                                y1="-0.75"
+                                x2="7.07107"
+                                y2="-0.75"
+                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 5 10)"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                              <line
+                                x1="5.53033"
+                                y1="0.53033"
+                                x2="0.53033"
+                                y2="5.53033"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li>Стр:</li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">10</a></li>
+                        <li class="page-next">
+                          <a href="">
+                            <svg
+                              width="7"
+                              height="10"
+                              viewBox="0 0 7 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1.46973 9.46961L5.9394 4.99994M5.9394 4.99994L6.46973 4.46961M5.9394 4.99994L1.46973 0.530273M5.9394 4.99994L6.46973 5.53027"
+                                stroke="#4D5872"
+                                stroke-width="1.5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="select-page">
+                      Прокси на странице:
+                      <select name="" id="">
+                        <option value="25" selected>25</option>
+                        <option value="35">35</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cabinet__content-item new-orders hide"></div>
+      <div class="cabinet__content-item faq hide"></div>
+      <div class="cabinet__content-item partner hide"></div>
+    </div>
+  </div>
+  <div class="toastify">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16">
+      <path
+        fill-rule="evenodd"
+        d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"
+        fill="currentColor"
+      ></path>
+    </svg>
+    Скопировано
+  </div>
+</section>
+ <!-- <div class="modal modal-edit">
+  <div class="modal__wrapper">
+    <div class="modal__content">
+      <div class="modal_head">Замена IP</div>
+      <button class="modal__close" aria-label="Закрыть модальное окно"></button>
+      <div class="modal_body">
+        <form action="">
+          <p>Дайте нам знать по какой причине вы хотите заменить IP</p>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Введите текст..."
+          ></textarea>
+          <button class="btn-form">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="modal-edit modals hide">
+  <div class="modal__overlay">
+    <div class="modal__window">
+      <div class="modal_head">
+        Замена IP
+        <button
+          class="modal__close"
+          aria-label="Закрыть модальное окно"
+        ></button>
+      </div>
+      <div class="modal_body">
+        <form data-discount="10" novalidate="novalidate">
+          <div class="modal__form-input">
+            <p>Дайте нам знать по какой причине вы хотите заменить IP</p>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="form-control"
+            ></textarea>
+          </div>
+          <div class="section__btn section__btn--small">
+            <button type="submit">Отправить</button>
+            <div class="section__btn--anim" data-time="10000"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-comment modals hide">
+  <div class="modal__overlay">
+    <div class="modal__window">
+      <div class="modal_head">
+        Комментарий
+        <button
+          class="modal__close"
+          aria-label="Закрыть модальное окно"
+        ></button>
+      </div>
+      <div class="modal_body">
+        <form data-discount="10" novalidate="novalidate">
+          <div class="modal__form-input">
+            <p>Дайте нам знать по какой причине вы хотите заменить IP</p>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="form-control"
+            ></textarea>
+          </div>
+          <div class="section__btn section__btn--small" style="width: 116px">
+            <button type="submit">Сохранить</button>
+            <div class="section__btn--anim" data-time="10000"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </main>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table-locale-all.min.js"></script>
+    
+    <script
+        src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/export/bootstrap-table-export.min.js"></script>  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

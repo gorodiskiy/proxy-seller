@@ -1,0 +1,60 @@
+.faq {
+    &__item {
+        border: 1.5px solid rgba(245, 206, 71, 0.4);
+        border-radius: 7px;
+        padding-right: 45px;
+        padding-left: 45px;
+        transition: padding-bottom $ms;
+
+        &--active {
+            padding-bottom: 25px;
+            transition: padding-bottom $ms;
+
+            .faq__item-title {
+                &::before {
+                    transform: translateY(-50%) rotate(180deg);
+                    transition: transform $ms;
+                }
+            }
+        }
+
+        &-title {
+            position: relative;
+            padding-top: 22px;
+            padding-right: 35px;
+            padding-bottom: 22px;
+            line-height: 135%;
+            cursor: pointer;
+
+            &::before {
+                content: "";
+                position: absolute;
+                right: 0;
+                top: 50%;
+                width: 28px;
+                height: 14px;
+                // background-image: url("../img/ui/faq-arrow.svg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                transform: translateY(-50%) rotate(0);
+                transition: transform $ms;
+            }
+        }
+
+        &-body {
+            overflow: hidden;
+            max-height: 0;
+            line-height: 160%;
+            transition: max-height $ms;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+
+            @media (max-width: 767px) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
