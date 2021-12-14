@@ -753,3 +753,10 @@ input:checked + .slider:before {
         transition: 0.3s;
     }
 }
+
+.bootstrap-table + .services__body{
+    background-color: #fff;
+    .services__body-renew{
+        border-top: 0;
+    }
+}

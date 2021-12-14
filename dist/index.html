@@ -718,7 +718,7 @@
           <div class="current-orders__content-item">
             <div class="current-orders__wrapper">
               <div class="current-orders__table">
-                <div id="toolbar-ipv4" class="toolbar">
+                                <div id="toolbar-ipv4" class="toolbar">
                   <img
                     src="img/ui/dots.svg"
                     width=""
@@ -756,6 +756,7 @@
                               data-index="0"
                               name="btSelectItem"
                               type="checkbox"
+                              class="all"
                             />
                             <span></span>
                           </label>
@@ -1177,7 +1178,67 @@
                         <option value="35">35</option>
                       </select>
                     </div>
-                  </div>
+                  </div>                  
+                </div>
+                <div class="services__body">
+                        <div class="services__body-renew">
+                    <div class="services__body-title">Продлить прокси:</div>
+                    <form class="services__renew-form">
+                    <div class="services__renew-input">
+                        <select>
+                        <option value="Срок продления"></option>
+                        <option>1 день</option>
+                        <option>2 дня</option>
+                        <option>3 дня</option>
+                        <option>4 дня</option>
+                        </select>
+                    </div>
+                    <div class="services__renew-input">
+                        <select>
+                        <option value="Способ оплаты"></option>
+                        <option>1 день</option>
+                        <option>2 дня</option>
+                        <option>3 дня</option>
+                        <option>4 дня</option>
+                        </select>
+                    </div>
+                    <div class="services__renew-input">
+                        <button
+                        class="services__renew-promocode"
+                        type="button"
+                        >
+                        Есть промо код?
+                        </button>
+                        <div class="services__renew-input-wrapper">
+                        <input type="text" placeholder="Промокод" />
+                        <button
+                            class="services__renew-promocode"
+                            type="button"
+                            aria-label="Убрать поле ввода для промокода"
+                        >
+                            <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Убрать поле ввода для промокода"
+                            />
+                        </button>
+                        </div>
+                    </div>
+                    <button
+                        class="section__btn section__btn--size-m"
+                        type="submit"
+                    >
+                        Продлить
+                    </button>
+                    </form>
+                    <!-- <ul class="services__body-final">
+                    <li>Выбрано <span>2 прокси.</span></li>
+                    <li>Стоимость <span>999 руб.</span></li>
+                    <li>С учетом скидки <span>0%: 0 руб.</span></li>
+                    </ul> -->
+                </div>
                 </div>
               </div>
             </div>
@@ -1213,7 +1274,20 @@
                   <table id="ipv6" class="table table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th data-field="check" data-checkbox="true"></th>
+                        <th
+                          data-field="check"
+                          class="bs-checkbox"
+                          data-checkbox="true"
+                        >
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                              class="all"
+                            />
+                            <span></span>
+                          </label>
                         <th data-field="ip" class="head-ip">
                           IP
                           <div
@@ -1230,38 +1304,6 @@
                             </ul>
                           </div>
                         </th>
-                        <!-- <th
-                          data-field="link"
-                          class="current-orders__table-link-wrap"
-                        >
-                          <div class="current-orders__table-head-link">
-                            Link
-                            <div
-                              class="current-orders__table-head-link-dropdown"
-                            >
-                              <div
-                                class="
-                                  current-orders__table-head-link-dropdown--current
-                                "
-                              >
-                                <img
-                                  src="img/ui/help.svg"
-                                  width="14"
-                                  height="14"
-                                  loading="lazy"
-                                  alt="Link to change IP"
-                                />
-                              </div>
-                              <div
-                                class="
-                                  current-orders__table-head-link-dropdown--text
-                                "
-                              >
-                                Link to change IP
-                              </div>
-                            </div>
-                          </div>
-                        </th> -->
                         <th
                           data-field="country"
                           data-filter-control="select"
@@ -1681,13 +1723,73 @@
                     </div>
                   </div>
                 </div>
+                                <div class="services__body">
+                        <div class="services__body-renew">
+                    <div class="services__body-title">Продлить прокси:</div>
+                    <form class="services__renew-form">
+                    <div class="services__renew-input">
+                        <select>
+                        <option value="Срок продления"></option>
+                        <option>1 день</option>
+                        <option>2 дня</option>
+                        <option>3 дня</option>
+                        <option>4 дня</option>
+                        </select>
+                    </div>
+                    <div class="services__renew-input">
+                        <select>
+                        <option value="Способ оплаты"></option>
+                        <option>1 день</option>
+                        <option>2 дня</option>
+                        <option>3 дня</option>
+                        <option>4 дня</option>
+                        </select>
+                    </div>
+                    <div class="services__renew-input">
+                        <button
+                        class="services__renew-promocode"
+                        type="button"
+                        >
+                        Есть промо код?
+                        </button>
+                        <div class="services__renew-input-wrapper">
+                        <input type="text" placeholder="Промокод" />
+                        <button
+                            class="services__renew-promocode"
+                            type="button"
+                            aria-label="Убрать поле ввода для промокода"
+                        >
+                            <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Убрать поле ввода для промокода"
+                            />
+                        </button>
+                        </div>
+                    </div>
+                    <button
+                        class="section__btn section__btn--size-m"
+                        type="submit"
+                    >
+                        Продлить
+                    </button>
+                    </form>
+                    <!-- <ul class="services__body-final">
+                    <li>Выбрано <span>2 прокси.</span></li>
+                    <li>Стоимость <span>999 руб.</span></li>
+                    <li>С учетом скидки <span>0%: 0 руб.</span></li>
+                    </ul> -->
+                </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="current-orders__content-item">
             <div class="current-orders__wrapper">
               <div class="current-orders__table">
-                <div id="mobile" class="toolbar">
+                                <div id="mobile" class="toolbar">
                   <img
                     src="img/ui/dots.svg"
                     width=""
@@ -1715,7 +1817,20 @@
                   <table id="mobile" class="table table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th data-field="check" data-checkbox="true"></th>
+                        <th
+                          data-field="check"
+                          class="bs-checkbox"
+                          data-checkbox="true"
+                        >
+                          <label>
+                            <input
+                              data-index="0"
+                              name="btSelectItem"
+                              type="checkbox"
+                              class="all"
+                            />
+                            <span></span>
+                          </label>
                         <th data-field="ip" class="head-ip">
                           IP
                           <div
@@ -2207,6 +2322,66 @@
                       </select>
                     </div>
                   </div>
+                </div>
+                                <div class="services__body">
+                        <div class="services__body-renew">
+                    <div class="services__body-title">Продлить прокси:</div>
+                    <form class="services__renew-form">
+                    <div class="services__renew-input">
+                        <select>
+                            <option value="Срок продления"></option>
+                            <option>1 день</option>
+                            <option>2 дня</option>
+                            <option>3 дня</option>
+                            <option>4 дня</option>
+                        </select>
+                    </div>
+                    <div class="services__renew-input">
+                        <select>
+                        <option value="Способ оплаты"></option>
+                            <option>1 день</option>
+                            <option>2 дня</option>
+                            <option>3 дня</option>
+                            <option>4 дня</option>
+                        </select>
+                    </div>
+                    <div class="services__renew-input">
+                        <button
+                        class="services__renew-promocode"
+                        type="button"
+                        >
+                        Есть промо код?
+                        </button>
+                        <div class="services__renew-input-wrapper">
+                        <input type="text" placeholder="Промокод" />
+                        <button
+                            class="services__renew-promocode"
+                            type="button"
+                            aria-label="Убрать поле ввода для промокода"
+                        >
+                            <img
+                            src="img/ui/delete.svg"
+                            width="10"
+                            height="10"
+                            loading="lazy"
+                            alt="Убрать поле ввода для промокода"
+                            />
+                        </button>
+                        </div>
+                    </div>
+                    <button
+                        class="section__btn section__btn--size-m"
+                        type="submit"
+                    >
+                        Продлить
+                    </button>
+                    </form>
+                    <!-- <ul class="services__body-final">
+                    <li>Выбрано <span>2 прокси.</span></li>
+                    <li>Стоимость <span>999 руб.</span></li>
+                    <li>С учетом скидки <span>0%: 0 руб.</span></li>
+                    </ul> -->
+                </div>
                 </div>
               </div>
             </div>

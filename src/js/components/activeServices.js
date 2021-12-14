@@ -3,7 +3,7 @@ import Choices from "choices.js";
 
 export const activeServices = () => {
     const servicesList = document.querySelector(".services__list");
-
+    const cabinet = document.querySelector('.current-orders');
     if (servicesList) {
         const servicesSelects = servicesList.querySelectorAll(".services__renew-input select");
 
@@ -34,6 +34,27 @@ export const activeServices = () => {
         });
 
         servicesSelects.forEach((select) => {
+            if (select) {
+                const choices = new Choices(select, {
+                    shouldSort: false,
+                    itemSelectText: "",
+                    searchEnabled: false,
+                    placeholder: true
+                });
+            }
+        });
+    }
+    if (cabinet) {
+        const cabinetSelects = cabinet.querySelectorAll(".services__renew-input select");
+        
+        cabinet.addEventListener('click', (e) => {
+            if (e.target && e.target.classList.contains("services__renew-promocode")) {
+                const parent = e.target.closest(".services__renew-input");
+
+                parent.classList.toggle("services__renew-input--active");
+            }
+        })
+        cabinetSelects.forEach((select) => {
             if (select) {
                 const choices = new Choices(select, {
                     shouldSort: false,
